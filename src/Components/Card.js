@@ -2,9 +2,13 @@ import React from 'react'
 
 const Users = ({loading,users}) => {
     return loading ? (   
-          <div id="main">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif" alt="Loaading.." className="loader"/>
-          </div>
+        <div className="content">
+       <div className="circle"></div>
+        <div className="circle"></div>
+        <div className="circle"></div>
+        <div className="circle"></div>
+      </div>
+    
         ) : 
         (
           <div id="main">
